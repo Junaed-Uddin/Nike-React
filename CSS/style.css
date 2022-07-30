@@ -1,0 +1,87 @@
+:root {
+  --light-blue: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  --orange: #fa804c;
+  --dark-gray: #363958;
+  --light-gray: #3c3c3c;
+  --light-ash: #f1f1f1;
+  --font-bebas: "Bebas Neue", cursive;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --dark-ash: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+}
+
+/* utilities  */
+.section-height{
+    margin-top: 150px;
+}
+
+/* image slider  */
+.image-slider {
+  background-image: var(--light-blue);
+  background-size: cover;
+  min-height: 400px;
+}
+
+/* navbar */
+.nav-logo {
+  color: var(--orange);
+  font-family: var(--font-montserrat);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav-logo span {
+  color: var(--dark-gray);
+}
+
+.nav-list {
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+
+/* image slider  */
+.heading-section {
+  font-family: var(--font-bebas);
+}
+
+.header-text {
+  color: var(--orange);
+}
+
+.btn-buy {
+  background-image: var(--dark-ash);
+}
+
+/* shoe section  */
+.price-tag{
+    color: var(--orange);
+}
+
+.shoe-background{
+    background-color: var(--light-ash);
+}
+
+/* why buy us  */
+.card-image img{
+  width:80px;
+  height:80px;
+}
+
+.icon-section{
+  color:goldenrod;
+  font-size: 18px;
+}
+
+ /* media query  */
+@media screen and (max-width: 300px) {
+  .nav-logo {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .btn-buy {
+    font-size: 17px;
+  }
+}
